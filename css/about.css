@@ -1,0 +1,55 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kablammo&family=Lora:wght@500&family=Merriweather:wght@300&family=Roboto&family=Rubik+Puddles&family=Space+Grotesk:wght@500&family=Teko&family=Tilt+Prism&display=swap');
+
+#about{
+    width: 82%;
+    margin: auto;
+    min-height: 100vh;
+}
+#about h2{
+    font-size: 53px;
+    text-align: center;
+    padding-top: 20px;
+    color: #00796B;
+    font-family: 'Lora', serif;
+}
+.content2{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.profile{
+    margin-top: 40px;
+}
+.profile img{
+    height: 30rem;
+    width: 24rem;
+    border-radius: 65px;
+    box-shadow: 5px 10px 8px #483212;
+}
+.info3{
+    text-decoration: underline;
+    color: darkcyan;
+}
+.content2 .about-content{
+    font-size: 20px;
+    /* padding: 95px; */
+    padding-left: 120px;
+    padding-top: 84px;
+    font-family: 'Merriweather', serif;
+}
+.about-content .resume{
+    margin-top: 40px;
+    text-align: center;
+}
+.resume a{
+    text-decoration: none;
+    background-color: paleturquoise;
+    padding: 15px;
+    border-radius: 20px;
+    color: #043358;
+    box-shadow: 5px 10px 8px #483212;
+}
+.resume a:hover{
+    background-color: orange;
+    transition: 1s;
+}

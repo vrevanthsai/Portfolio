@@ -1,0 +1,59 @@
+#skills{
+    width: 82%;
+    margin: auto;
+    min-height: 100vh;
+}
+#skills h2{
+    font-size: 53px;
+    text-align: center;
+    padding-top: 20px;
+    color: #00796B;
+    font-family: 'Lora', serif;
+}
+.content3 .info4{
+    font-size: 40px;
+    text-align: center;
+}
+.content3 .info5{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    text-align: center;
+    grid-gap: 2rem;
+    margin-top: 30px;
+}
+.content3 .info6{
+    font-size: 25px;
+    background-color: #f4cb36;
+    padding: 10px;
+    border-radius: 18px;
+    width: 176px;
+    display: block;
+    cursor: cell;
+    margin: auto;
+    box-shadow: 5px 10px 8px #483212;
+}
+.content3 .info6:hover{
+    background-color: aliceblue;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.content3 .info7{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+.content3 .info8{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 2rem;
+    margin-top: 20px;
+}
+.content3 .info8 a{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    color: darkred;
+}
+.content3 .info8 img{
+    width: 100%;
+}

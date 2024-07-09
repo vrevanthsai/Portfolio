@@ -1,0 +1,164 @@
+@media (max-width:1100px) {
+
+    /* about page*/
+    #about .content2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width:900px) {
+    #home {
+        width: 98%;
+    }
+
+    #about {
+        width: 98%;
+    }
+
+    .content2 .about-content {
+        font-size: 16px;
+        /* padding: 95px; */
+        padding-left: 23px;
+        padding-top: 46px;
+    }
+
+    .profile img {
+        height: 23rem;
+        width: 20rem;
+    }
+
+    #skills {
+        width: 98%;
+    }
+
+    #projects {
+        width: 98%;
+    }
+
+    #contact {
+        width: 98%;
+    }
+}
+
+@media (max-width:800px) {
+
+    /* skills page*/
+    .content3 .info5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content3 .info8 {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    /* project page*/
+    .proj .proj1a {
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .proj .box {
+        margin-top: 35px;
+    }
+
+    /* home page */
+    .navbar-right li {
+        list-style: none;
+        font-size: 30px;
+        padding: 13px;
+        width: 250px;
+    }
+
+    .navbar {
+        background-color: darkgrey;
+        padding-top: 0px;
+    }
+
+    .navbar-right {
+        background-color: #ef8f88;
+        padding-top: 110px;
+    }
+
+    .line button {
+        width: 223px;
+        padding: 10px;
+        font-size: 20px;
+        margin-top: 73px;
+        margin-left: 40px;
+    }
+}
+
+/* hamberger */
+@media (max-width:600px) {
+    #home .rmenu {
+        display: block;
+        color: aqua;
+        z-index: 3;
+    }
+
+    #home .content1 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .navbar-right {
+        padding-top: 0px;
+    }
+
+    .navbar {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+    }
+
+    .navbar-right li {
+        margin: auto;
+    }
+
+    /* project-page */
+    #projects .des .tools {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* contact */
+    #contact .follow2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .follow .follow2 span {
+        margin: 0px;
+    }
+}
+
+@media (max-width:400px) {
+    .proj .proj1a .des {
+        font-size: 1rem;
+    }
+
+    .line button {
+        margin-left: 0px;
+    }
+    /* #home{
+        min-height: 80px;
+    } */
+    #about{
+        min-height: 80px;
+    }
+    #home h1 {
+        font-size: 52px;
+    }
+    #home .line {
+        font-size: 30px;
+    }
+    .line .line2 {
+        font-size: 35px;
+    }
+}
