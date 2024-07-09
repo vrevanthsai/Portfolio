@@ -1,2 +1,2 @@
 # Porfolio
-# First task of Bharat Virtual Internship program
+# It is a simple Portfolio web created using HTML ,CSS, JavaScript
